@@ -1,0 +1,16 @@
+<project name="FirstProject" default="test2">
+	<target name = "hi">
+	<echo> This is Manoj</echo>
+	</target>
+	
+	<target name = "test" depends = "hi" >
+	<echo> This is test1 </echo>
+	</target>
+	
+	<target name = "test2" depends = "test">
+	<echo> This is test2 </echo>
+	</target>
+	
+	<!-- ant -f filename.xml -->	
+</project>
+	
