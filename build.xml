@@ -1,0 +1,6 @@
+<project name="FirstProject" default="abc">
+	<target name = "abc">
+	<echo> This is tset1 </echo>
+	</target>
+</project>
+	
