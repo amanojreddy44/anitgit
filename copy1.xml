@@ -1,0 +1,9 @@
+<project name="FirstProject" default="copy1">
+
+	<target name="copy1">
+	<copy file="copy1.txt" tofile="copy.txt"/>
+	</target>
+	<!-- relative path if we are in the current path then it is called relative path
+	there is no nedd to give full path -->
+	<!-- absolute path we have to give full path -->
+</project>
